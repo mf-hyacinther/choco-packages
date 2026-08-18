@@ -3,15 +3,12 @@
 $packageArgs = @{
   packageName            = 'touchdesigner'
   fileType               = 'exe'
-  url                    = 'https://www.derivative.ca/Builds/TouchDesigner088.62160.32-Bit.exe'
-  url64bit               = 'https://www.derivative.ca/Builds/TouchDesigner088.62160.64-Bit.exe'
-  checksum               = 'e216f4536503393cb38f5ba6e02420a098f6696f109d3b16ecde02feaf00d37b'
-  checksum64             = '5927eb66795735d7f675d992207e45063b1883c5c5a862a9a69bd12fa189ca63'
-  checksumType           = ''
+  url64bit               = 'https://download.derivative.ca/TouchDesignerWebInstaller.2025.33070.exe'
+  checksum64             = '42971F7BA7AE93A6E8220AFDAFB64492EDEC7E4C8366F6E6BFD0900E62D404AD'
   checksumType64         = 'sha256'
-  silentArgs             = '/quiet'
+  silentArgs             = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes         = @(0)
-  softwareName           = 'TouchDesigner 088'
+  softwareName           = 'TouchDesigner*'
 }
 
 Write-Host
